@@ -1,4 +1,4 @@
-# macbuild
+# ansible-mac-setup
 
 ## Requirements
 Make sure you have a clean installation of Mac OS.

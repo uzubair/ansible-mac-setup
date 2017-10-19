@@ -4,6 +4,7 @@
 downloads: ~/
 
 # Username to setup for git
+fullname: Name
 username: username
 
 # Homebrew applications
