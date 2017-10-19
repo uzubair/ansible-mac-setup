@@ -1,0 +1,7 @@
+---
+  - name: Git | User credentials Setup
+    template: 
+      src: '../templates/gitconfig.j2'
+      dest: '/Users/{{ username }}/.gitconfig'
+      owner: '{{ username }}'
+      group: admin

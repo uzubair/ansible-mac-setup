@@ -1,0 +1,7 @@
+---
+  - name: Homebrew | Update in progress
+    homebrew:
+      update_homebrew: yes
+    become: no
+
+  - include_tasks: homebrew_install_apps.yml

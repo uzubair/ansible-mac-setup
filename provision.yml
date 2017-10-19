@@ -1,0 +1,15 @@
+# This playbook configures the development machine
+---
+  - name: Machine Setup
+    hosts: all
+    become: yes
+
+    # import the default configuration file
+    vars_files:
+      - default.config.yml
+    
+    # execute tasks
+    tasks:
+      - include_tasks: roles/homebrew/tasks/homebrew.yml
+      - include_tasks: roles/homebrew_cask/tasks/homebrew_cask.yml
+      - include_tasks: roles/git/tasks/git.yml

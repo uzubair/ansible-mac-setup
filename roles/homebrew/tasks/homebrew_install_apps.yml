@@ -1,0 +1,7 @@
+---
+  - name: Homebrew | Installing applications
+    homebrew: 
+      name: '{{ item }}'
+      state: latest
+    with_items: '{{ homebrew_applications }}'
+    become: no

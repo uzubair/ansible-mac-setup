@@ -1,0 +1,18 @@
+# Default configuration file 
+---
+# Ansible download directory
+downloads: ~/
+
+# Username to setup for git
+username: username
+
+# Homebrew applications
+homebrew_applications:
+  - curl
+  - git
+  - ruby
+  - expect
+
+# Homebrew cask applications
+Homebrew_cask_applications:
+  - java

@@ -1,0 +1,8 @@
+Jinja2
+MarkupSafe
+PyYAML
+ecdsa
+paramiko
+pycrypto
+pexpect
+ansible
